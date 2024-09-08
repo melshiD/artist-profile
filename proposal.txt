@@ -1,0 +1,58 @@
+//Title
+Hello World
+
+//Brief Summary (99 of 150 words)
+The sculpture will stand approximately 7 feet by 7 feet, with a façade subdivided equally into 64 square panels. Each panel can shift between a dark and light state—similar to how a high school scoreboard changes its display—allowing the structure to perform the evolving patterns characteristic of Conway's Game of Life. The work is designed to mesmerize and fascinate viewers as the individual squares shift, guided by the unseen but audible mechanisms that power and guide the piece. This interplay of movement, sound, and scale creates an immersive environment that encourages prolonged contemplation and deep engagement with the artwork.
+
+//If this is a continuation of an existing project, or is a project proposed by an existing program or group, please explain briefly how this proposal would open up significant new direction in the work you do (93 of 100 words)
+This proposal will provide the resources needed to produce the precise parts required for "Hello World" and other unrealized designs. By accelerating the transition from concept to CAD to physical form, it will unlock new possibilities for expression, motion, and narrative in my work. The impact of this grant will extend far beyond a single project.
+
+The public exposure of "Hello World" will spark inquiry and lay the groundwork for future installations that integrate more advanced technological elements, enabling me to create works that engage audiences simultaneously in the physical and digital realms.
+
+//Full Project Description (409 of 500 words)
+"Hello World" is a sculptural reflection on the hidden mechanisms that drive our digital world. Just as we interact with technology daily without fully understanding the systems behind it, this piece offers a visual and auditory experience that reveals the complexity beneath the surface and reflects the ongoing integration of digital processes into our physical reality.
+
+At its heart, "Hello World" brings the traditionally digital "Game of Life" into the physical realm as a large, mechanical structure. By doing so, the piece introduces a broader audience to the charm and intrigue of this algorithmic system, encouraging viewers to contemplate the pervasive influence of technology on our lives—the noise, the entertainment, and the unseen forces behind the pixels on our screens. This sculpture invites the audience to engage with an elegant system that blurs the line between machine and organism, and offers implications regarding our own participation in the patterned interplay of person and pixel.
+
+The sculpture will be primarily constructed from laser-cut plywood, with each square panel visible from the front as a light or dark set of shutters, reminiscent of a scoreboard. Behind each panel lies an intricate multi-tiered mechanical mechanism, representing the majority of the construction effort required for "Hello World." Each mechanism is composed of several critical subassemblies, including:
+
+A means for one module to broadcast its current state (light or dark) to adjacent modules.
+A method for each module to evaluate the broadcasts from surrounding modules using a counter and a simple logic circuit.
+A mechanism to act appropriately based on the evaluation from the counter/logic circuit subassembly.
+A display output that updates according to the evaluation's results.
+
+Exceptions to plywood in the construction of "Hello World" include dowels, steel rods, bearings and fasteners.
+
+"Hello World" can be installed to stand in-the-round, or against a wall.  Once installed, Hello World can be set to operate on a regular interval via a stepper motor (battery power may preclude the need for proximity to a walled power source), or by hand crank.  There is a possibility of building the sculpture such that viewers can set the starting arrangement of the square panels when the sculpture is at rest.
+
+One of the unique aspects of "Hello World" is its ability to evolve aesthetically. The forward-facing display elements can be updated and modified with relative ease, allowing for the piece to be renewed over time. This adaptability broadens the range of environments in which "Hello World" can be displayed and ensures that it remains relevant and engaging for years.
+
+An extra note on design and venue:
+During the latter half of the project term, partially-complete assemblies of the full build can be presented to venues. If a venue is interested but has space constraints, smaller assemblies of as few as 3x3 panels (9 total panels/devices) can be offered. While larger displays are more engaging, this option ensures that smaller venues can still participate in showcasing "Hello World."
+
+//Project timeline (52 of 100 words)
+Laser Cutter Installation: 2 weeks (December 2024)
+Finalize Dimensions and Test Design in Plywood: 2 months (January - February 2025)
+Parts Manufacturing and Assembly Prep: 6 months (March - August 2025)
+Final Assembly and Testing: 3 months (September - November 2025)
+Ongoing Venue Communication: Full project duration (December 2024 - December 2025)
+
+//What are your plans for the public to experience this work/project and what potential venue(s) are you seeking/contacting? 
+"Hello World" offers a unique opportunity to engage the public through its aesthetically rich yet simple and procedural design. The piece’s versatility allows it to be showcased in a variety of settings and contexts.  Initially, I plan to install "Hello World" in local galleries, offices, and shops, particularly those along the Cultural Trail and near Fountain Square—an area I frequent and where I believe the artwork will resonate strongly with the community.
+
+In addition to galleries, offices and shops, I see great potential in exhibiting "Hello World" in unconventional locations. Placing the piece in unexpected settings, such as a dead end in a long corridor or within an otherwise empty barn, could heighten its intrigue and invite a more profound engagement from the audience.  Schools and places of STEM learning will likely be interested hosts of "Hello World."
+
+Currently, I am in discussions with several local venues, including the Harrison Center, Pivot Marketing, Calvin Fletcher Coffee Roasters, Machyne@16Tech, and Cargo Streetwear Boutique, to explore the best opportunities for showcasing "Hello World."
+
+In the future, as the piece generates interest, I'd like to conduct a small, focused artist/maker masterclass to share the process behind "Hello World" and instruct others on how to pursue their creative ideas. While this educational component is not included in the current budget proposal, it is a concept I have been passionate about for some time and may explore in subsequent phases of this project.
+
+//Please provide a short biography about yourself, your group, collective, and/or organization (256 of 600 words)
+David Melsheimer is a conceptual artist whose work spans a multitude of creative domains. Over the years, he has deeply immersed himself in the artistic process, honing a rich blend of skills that combine traditional craftsmanship with cutting-edge technologies.
+
+David’s work primarily explores the interactions between organisms, with a particular emphasis on how humans relate to the concept of space, as well as society’s notions of consciousness and ownership. These themes are central to his creative practice, shaping the conceptual foundation of his work.
+
+To bring his ideas to life, David employs a diverse set of tools and methods. His technical expertise includes sound design, stone carving, casting materials, metal fabrication, software development and AI, rapid prototyping, computer-aided design, textiles, carpentry, machine design, electronics, and nuclear submarine operation. This extensive skill set allows him to conceptualize and execute projects that range from intricate, expressive mechanisms to large-scale architectural and interactive installations.
+
+Currently, David is working on a project funded by the Central Indiana Community Foundation (CICF) Creative Risk Fund, which explores the interplay of sound and motion through persistent chain reactions between various materials. This work underscores his commitment to creating art that is both conceptually rich and accessible to a broad audience.
+
+As he continues to develop his practice, David is dedicated to uncovering and synthesizing the messages hidden in the interactions around us. He is committed to mastering the technologies and techniques necessary to transcribe and transmit these messages, so that he can create work that encourages contemplation and meaningful engagement from his audience.

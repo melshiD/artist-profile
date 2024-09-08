@@ -1,0 +1,7 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Computer screen -->
+  <rect x="20" y="30" width="60" height="40" fill="#2c3e50" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Code snippet -->
+  <text x="35" y="55" font-family="Arial" font-size="10" fill="#ecf0f1">``=;</text>
+</svg>

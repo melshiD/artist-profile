@@ -17,6 +17,7 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
 import unrequited from '@/images/photos/perennially-unrequited.jpg'
 import threeWays from '@/images/photos/three-ways-to-show-up.jpg'
+import timeWash from '@/images/photos/time-wash.jpg'
 import dominotes from '@/images/photos/dominotes.jpg'
 import sentry from '@/images/photos/sentry.jpg'
 import gol2 from '@/images/photos/gol-2.jpg'
@@ -29,27 +30,17 @@ import portraitNoBg from '@/images/photos/portrait-no-bg.png'
 import gol11 from '@/images/photos/gol-11.jpg'
 import { getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
+import iconHardhat from '@/images/photos/hardhat.png'
 
-function MailIcon(props) {
+function HardhatIcon(props) {
   return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-      {...props}
-    >
-      <path
-        d="M2.75 7.75a3 3 0 0 1 3-3h12.5a3 3 0 0 1 3 3v8.5a3 3 0 0 1-3 3H5.75a3 3 0 0 1-3-3v-8.5Z"
-        className="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
-      />
-      <path
-        d="m4 6 6.024 5.479a2.915 2.915 0 0 0 3.952 0L20 6"
-        className="stroke-zinc-400 dark:stroke-zinc-500"
-      />
-    </svg>
+    <Image
+    src={iconHardhat}
+    alt="image of a hardhat"
+    width={64}
+    height={64}
+    className='relative align-center'
+  />
   )
 }
 
@@ -116,14 +107,14 @@ function Newsletter() {
   return (
     <form
       action="/thank-you"
-      className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
+      className="rounded-2xl border border-zinc-100 dark:border-zinc-700/40"
     >
-      <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        <MailIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Stay up to date</span>
+      <h2 className="flex text-sm items-center font-semibold text-zinc-900 dark:text-zinc-100">
+        <HardhatIcon className="flex-none" />
+        <span className="ml-3">Under Construction</span>
       </h2>
-      <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-        Get notified when I publish something new, and unsubscribe at any time.
+      <p className="p-4 text-sm text-zinc-600 dark:text-zinc-400">
+        This new site is actively being updated with content and finding its look.  Thank you for visiting.  More to come very soon.
       </p>
       {/* <div className="mt-6 flex">
         <input
@@ -301,11 +292,11 @@ export default async function Home() {
       <Photos />
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          <div className="flex flex-col gap-16">
+          {/* <div className="flex flex-col gap-16">
             {articles.map((article) => (
               <Article key={article.slug} article={article} />
             ))}
-          </div>
+          </div> */}
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Newsletter />
             {/* <Resume /> */}

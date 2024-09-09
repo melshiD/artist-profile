@@ -9,7 +9,7 @@ export const metadata = {
   title: {
     template: '%s - David Melsheimer',
     default:
-      'David Melsheimer - Conceptual artist, web developer, and philosopher custodian',
+      'David Melsheimer - Conceptual artist, web developer, and perennial scholar',
   },
   description:
     'I’m David, an artist and web developer in Indianapolis.',

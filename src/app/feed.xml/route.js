@@ -14,19 +14,19 @@ export async function GET(req) {
     email: 'dave.melshman@gmail.com',
   }
 
-  let feed = new Feed({
-    title: author.name,
-    description: 'Ruminations on projects and process',
-    author,
-    id: siteUrl,
-    link: siteUrl,
-    image: `${siteUrl}/favicon.ico`,
-    favicon: `${siteUrl}/favicon.ico`,
-    copyright: `All rights reserved ${new Date().getFullYear()}`,
-    feedLinks: {
-      rss2: `${siteUrl}/feed.xml`,
-    },
-  })
+  // let feed = new Feed({
+  //   title: author.name,
+  //   description: 'Ruminations on projects and process',
+  //   author,
+  //   id: siteUrl,
+  //   link: siteUrl,
+  //   image: `${siteUrl}/favicon.ico`,
+  //   favicon: `${siteUrl}/favicon.ico`,
+  //   copyright: `All rights reserved ${new Date().getFullYear()}`,
+  //   feedLinks: {
+  //     rss2: `${siteUrl}/feed.xml`,
+  //   },
+  // })
 
   let articleIds = require
     .context('../articles', true, /\/page\.mdx$/)

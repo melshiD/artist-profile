@@ -13,11 +13,11 @@ export const metadata = {
   },
   description:
     'I’m David, an artist and web developer in Indianapolis.',
-  alternates: {
-    types: {
-      'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
-    },
-  },
+  // alternates: {
+  //   types: {
+  //     'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
+  //   },
+  // },
 }
 
 export default function RootLayout({ children }) {
